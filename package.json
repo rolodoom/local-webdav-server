@@ -1,0 +1,14 @@
+{
+  "name": "local-webdav-server",
+  "version": "1.0.0",
+  "description": "Simple local WebDAV server for iPad file transfer",
+  "main": "webdav.js",
+  "scripts": {
+    "start": "node webdav.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "webdav-server": "^2.6.2"
+  }
+}

@@ -1,0 +1,11 @@
+services:
+  webdav:
+    build: .
+    image: local-webdav-server:latest
+    container_name: local-webdav-server
+    ports:
+      - '1900:1900'
+    volumes:
+      - ./shared:/app/shared
+    user: '${UID}:${GID}'
+    restart: unless-stopped

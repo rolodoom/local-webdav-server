@@ -1,0 +1,21 @@
+# Ignore everything inside the shared folder
+shared/*
+
+# But keep the placeholder file so the folder exists in the repo
+!shared/.gitkeep
+
+# Ignore local environment files
+.env
+
+# Ignore Node.js dependencies and logs
+node_modules/
+npm-debug.log
+
+# Ignore macOS Finder metadata
+.DS_Store
+
+# Ignore any temporary or backup files
+*~
+
+# Ignore WebDAV server internal persistence file (fs.json)
+fs.json
