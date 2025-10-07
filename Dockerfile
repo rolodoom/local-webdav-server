@@ -16,7 +16,7 @@ COPY webdav.js ./
 RUN mkdir -p /app/shared
 
 # Expose WebDAV port
-EXPOSE 1900
+EXPOSE 8080
 
 # Run the server
 CMD ["npm", "start"]

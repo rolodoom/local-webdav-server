@@ -56,8 +56,8 @@ docker compose down
 
 ## Accessing the Server
 
-- Use your host machine to test: `http://localhost:1900/`
-- From other devices on your LAN, use your machine’s IP: `http://<host-ip>:1900/`
+- Use your host machine to test: `http://localhost:8080/`
+- From other devices on your LAN, use your machine’s IP: `http://<host-ip>:8080/`
 - Files uploaded will appear in the local `shared/` folder.
 
 ## Notes
